@@ -33,3 +33,7 @@ You can play around with different fonts, but I quite like LibreBaskerville-Regu
 ## Schedule using 
 To schedule this to run on a regular basis (daily) you can schedule the Application.py script in Cron. You can learn how to do this here:
 https://bc-robotics.com/tutorials/setting-cron-job-raspberry-pi/
+
+## What it looks like
+This is what it looks like on the Inky wHAT.
+![20230619_064047635_iOS](https://github.com/tomredd/GPT-Weather-Forecast-Haiku/assets/6317074/4bbebf09-7398-4553-9ca0-54ec35e17612)
