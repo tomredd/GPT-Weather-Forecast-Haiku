@@ -114,8 +114,8 @@ response = openai.Image.create(
 # Get the URL of the generated image
 image_url = response["data"][0]["url"]
 
-# Save the image as a JPEG file
-save_file_path = "generated_image.svg"
+# Save the image as a PNG file
+save_file_path = "generated_image.png"
 
 response = requests.get(image_url, stream=True)
 if response.status_code == 200:
