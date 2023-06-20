@@ -11,13 +11,13 @@ config.read('config.ini')
 DISPLAY_WIDTH = 300
 DISPLAY_HEIGHT = 400
 
-# Define the file path of the JPG image
+# Define the file path of the PNG image
 IMAGE_FILE = config.get('FILE_PATH', 'input_image')
 
 # Define the file path of the text file
 TEXT_FILE = config.get('FILE_PATH', 'input_haiku')
 
-# Define the file path to save the output JPG image
+# Define the file path to save the output PNG image
 OUTPUT_IMAGE_FILE = config.get('FILE_PATH', 'output_image')
 
 # Define the border size around the text
@@ -75,5 +75,5 @@ for line in lines:
     draw.text((text_x, text_y), line, fill=text_color, font=font)
     text_y += text_bbox[3] - text_bbox[1]
 
-# Save the displayed image as a new JPG file
-output_image.save(OUTPUT_IMAGE_FILE, "JPEG")
+# Save the displayed image as a new PNG file
+output_image.save(OUTPUT_IMAGE_FILE, "PNG")
