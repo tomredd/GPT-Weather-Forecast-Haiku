@@ -36,4 +36,4 @@ https://bc-robotics.com/tutorials/setting-cron-job-raspberry-pi/
 
 ## What it looks like
 This is what it looks like on the Inky wHAT.
-![20230619_064047635_iOS](https://github.com/tomredd/GPT-Weather-Forecast-Haiku/assets/6317074/4bbebf09-7398-4553-9ca0-54ec35e17612)
+
