@@ -30,9 +30,13 @@ Note: there is a limited trial, afterwards you will need to enter payment detail
 ## Font
 You can play around with different fonts, but I quite like LibreBaskerville-Regular: https://github.com/impallari/Libre-Baskerville
 
-## Schedule using 
+## Schedule using Crontab
 To schedule this to run on a regular basis (daily) you can schedule the Application.py script in Cron. You can learn how to do this here:
 https://bc-robotics.com/tutorials/setting-cron-job-raspberry-pi/
+
+Becasue the Application is dependent on the config.ini file, I found that it was neccisary to use the folloing command in cron. Change the filepath as needed.
+
+cd /home/pi/WeatherHaiku && python3 Application.py
 
 ## What it looks like
 This is what it looks like on the Inky wHAT.
