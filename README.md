@@ -41,3 +41,4 @@ cd /home/pi/WeatherHaiku && python3 Application.py
 ## What it looks like
 This is what it looks like on the Inky wHAT.
 
+![20230619_064047635_iOS](https://github.com/tomredd/GPT-Weather-Forecast-Haiku/assets/6317074/735e7917-364b-4640-98cb-25ca5e3173c1)
